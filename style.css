@@ -1,0 +1,51 @@
+
+body {
+  margin:0;
+  background:#0e1117;
+  color:#fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  padding:15px;
+  text-align:center;
+  background:#161b22;
+  border-bottom:1px solid #222;
+}
+
+#tv_chart {
+  height:55vh;
+}
+
+.card {
+  background:#161b22;
+  margin:12px;
+  padding:15px;
+  border-radius:14px;
+}
+
+input, button {
+  width:100%;
+  padding:12px;
+  margin-top:8px;
+  border-radius:10px;
+  border:none;
+  font-size:16px;
+}
+
+button {
+  background:#00c853;
+  color:#000;
+  font-weight:bold;
+}
+
+#result h2 {
+  color:#00c853;
+  text-align:center;
+}
+
+@media (min-width: 768px) {
+  #tv_chart {
+    height:500px;
+  }
+}
