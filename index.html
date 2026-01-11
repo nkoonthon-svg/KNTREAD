@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XAU Cycle AI Mobile</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://s3.tradingview.com/tv.js"></script>
+</head>
+<body>
+
+<div id="loginBox" class="card">
+  <h2>🔐 Login</h2>
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">เข้าสู่ระบบ</button>
+</div>
+
+<div id="app" style="display:none;">
+  <header>
+    <h1>XAU Cycle AI</h1>
+    <small>$20 | RR 1:5 | <span id="plan">FREE</span></small>
+  </header>
+
+  <div id="tv_chart"></div>
+
+  <div class="card">
+    <h3>📸 อัปโหลดรูปกราฟ</h3>
+    <input type="file" id="upload" accept="image/*">
+    <button onclick="analyze()">วิเคราะห์ (PRO)</button>
+  </div>
+
+  <div id="result" class="card"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
